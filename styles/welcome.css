@@ -18,7 +18,7 @@ background-size: cover;
 
 main {
   display: flex; /* visible immediately */
-  background-image: url('/jas/images/back.png');
+  background-image: url('/jas/images/backs.png');
   background-position: center;
   background-size: cover;
   width: 45%;
