@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Maze</title>
+    <link rel="stylesheet" href="styles/game.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Lilita+One&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="roseContainer"></div>
+
+    <div class="dialogueContainer">
+      <img src="/jas/images/sab-rose.png" class="sabRose" />
+      <div class="dialogueBox">
+        <p class="dialogueText">
+          Chippoy wants to give you a flower, can you help him go
+          through the maze?
+        </p>
+        <img src="/jas/images/chatbox.svg" class="box" />
+        <button class="yesBtn">Yes</button>
+      </div>
+    </div>
+
+    <div class="mazeScene">
+        <div class="header">
+          <h1>Hello</h1>
+          <p>Chippoy's Maze</p>
+        </div>
+        <div class="images">
+          <img src="/jas/images/maze-walls.png" class="mazeWalls">
+          <img src="/jas/images/maze-background.png" class="mazeBackground" >
+          <img src="/jas/images/sab.png" class="sab">
+          <img src="/jas/images/isha.png" class="isha">
+        </div>
+      </div>
+
+      <div class="controls">
+        <button class="upButton"></button>
+        <button class="leftButton"></button>
+        <button class="rightButton"></button>
+        <button class="downButton"></button>
+      </div>
+
+      <div class="finishScene">
+        <img src="/jas/images/sab-rose.png" class="sabStand">
+        <img src="/jas/images/giveRose.svg" class="giveRose">
+        <img src="/jas/images/isha-stand.svg" class="ishaStand">
+        <div class="finishDialogue">
+            <p class="finish firstLine">Hi, Ate Jasmine!</p>
+            <p class="finish secondLine">Thanks for helping me</p>
+            <p class="finish thirdLine">I thought I was lost</p>
+            <p class="finish fourthLine">but then I found you</p>
+            <p class="finish fifthLine">I miss you 😙</p>
+            <p class="finish sixthLine">Here's your flower</p>
+            <p class="finish seventhLine">I hope you are not mad at me, I'm really sorry</p>
+          <button class="nextButton">Next</button>
+          <img src="/jas/images/chatbox.svg" class="finishBox">
+        </div>
+      </div>
+    </div>
+    <script src="/jas/scripts/game.js"></script>
+  </body>
+</html>
