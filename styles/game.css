@@ -15,16 +15,10 @@ body {
 
 /* ---------------- Dialogue / Welcome ---------------- */
 .dialogueContainer {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translateX(-50%);
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;   /* center horizontally */
-  gap: 15px;             /* spacing between items */
-}
+  position: relative;
+  width: 70%;
+  height: 70%;
+  top: 20px;
 }
 
 .sabRose {
@@ -36,17 +30,25 @@ body {
 }
 
 .dialogueBox {
-  width: 300px;
-  padding: 15px;
-  background: white;
+  position: absolute;
+  top: -10%;
+  left: 42%;
+  width: 40%;
+  min-height: 30%;
   border-radius: 10px;
-  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 .dialogueText {
-  font-size: 1.5rem;
-  margin: 0;
+  font-size: 2rem;
+  color: black;
+  text-align: center;
 }
+
 
 .yesBtn {
   position: absolute;
