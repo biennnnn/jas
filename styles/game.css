@@ -34,19 +34,19 @@ body {
   top: -10%;
   left: 42%;
   width: 40%;
-  height: 30%;
+  min-height: 30%;
   border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 .dialogueText {
-  position: absolute;
   font-size: 2rem;
   color: black;
-  width: 48%;
   text-align: center;
-  top: 70px;
-  left: 65px;
-  z-index: 1;
 }
 
 .yesBtn {
